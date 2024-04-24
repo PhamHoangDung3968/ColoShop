@@ -39,8 +39,9 @@
                         <th>Họ tên</th>
                         <th>Email</th>
                         <th>Ngày tạo</th>
+
                         <th>
-                            
+
                         </th>
                     </tr>
                 </thead>
@@ -56,9 +57,10 @@
                                 <td>@item.FullName</td>
                                 <td>@item.Email</td>
                                 <td>@item.CreateDate</td>
+
                                 <td>
                                     <a href="/admin/account/edit/@item.UserName" class="btn btn-sm btn-primary">Sửa</a>
-                                    <a href="#" data-user="@item.UserName" class="btn btn-sm btn-primary btnDelete">Xóa</a>
+                                    <a href="#" data-user="@item.UserName" class="btn btn-sm btn-danger btnDelete">Xóa</a>
                                 </td>
                             </tr>
                             i++;
